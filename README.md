@@ -1,4 +1,4 @@
-# filesystem-navigator-ui
+# Filesystem Navigator UI
 An interactive Filesystem Navigator UI for web pages.
 
 ## HTML
