@@ -144,83 +144,6 @@ An interactive Filesystem Navigator UI for web pages.
 
 ## CSS
 ```css
-.selectTextFileModal {
-  width: 66%;
-  height: 66vh;
-  padding: 0;
-  border: 3px solid var(--remoteNoteThemeColor04);
-  border-radius: 12px;
-  box-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
-  overflow: hidden;
-}
-
-.selectTextFileModal::backdrop {
-  background-color: rgba(95, 0, 0, 0.95);
-}
-
-.selectTextFileModalMain,
-.selectTextFileModalHeader,
-.selectTextFileModalFooter {
-  position: absolute;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.selectTextFileModalHeader,
-.selectTextFileModalFooter {  
-  height: 60px;
-  line-height: 60px;
-  color: rgb(255, 255, 255);
-  background-color: var(--remoteNoteThemeColor00);
-  text-align: center;
-}
-
-.selectTextFileModalHeader {
-  inset: 0 0 auto auto;
-}
-
-.selectTextFileModalHeading {
-  margin: 0;
-  padding: 0;
-}
-
-.selectTextFileModalMain {
-  inset: 60px 0;
-  padding: 12px;
-  color: rgb(127, 0, 0);
-  background-color: rgb(255, 255, 255);
-  font-family: monospace;
-  font-size: clamp(12px, 2vw, 20px);
-  line-height: clamp(18px, 3vw, 30px);
-  overflow: auto;
-}
-
-.selectTextFileModalFooter {
-  inset: auto auto 0 0;
-}
-
-.selectTextFileModalForm {
-  margin: 0;
-  padding: 0;  
-}
-
-.selectTextFileModalFormButton {
-  height: 40px;
-  margin: 11px 0 9px;
-  padding: 0 12px;
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-  font-weight: 700;
-  background-color: rgba(0, 0, 0, 0.1);
-  border: 2px solid var(--remoteNoteThemeColor05);
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.selectTextFileModalFormButton:hover {
-  background-color: var(--remoteNoteThemeColor03);
-}
-
 .webDirectory {
   width: 90%;
   height: 0;
@@ -343,28 +266,18 @@ li.webDirectoryFile:last-of-type {
 
 ## JS
 ```js
-const selectTextFileModal = document.querySelector('.selectTextFileModal');
-const buttonsSelectText = document.querySelectorAll('.remoteNoteButton.\--selectText');
-
-const showSelectTextFileModal = () => {
-
-  selectTextFileModal.showModal();
-  const webDirectoryFolderNames = document.querySelectorAll('.webDirectoryFolderName');
+const webDirectoryFolderNames = document.querySelectorAll('.webDirectoryFolderName');
  
-  const toggleFolder = (e) =>  {
-    const webDirectory = e.currentTarget.nextElementSibling;
-    webDirectory.style.setProperty('transition', `height ${(webDirectory.scrollHeight / 360).toFixed(2)}s linear`);
-    webDirectory.style.setProperty('height', webDirectory.scrollHeight + 'px');
-    webDirectory.classList.toggle('--open');
-    webDirectory.classList.add('--transitioning');
-    const timeout = ((webDirectory.scrollHeight / 360) * 1000);
-    setTimeout(() => webDirectory.classList.remove('--transitioning'), timeout);
-    setTimeout(() => webDirectory.style.removeProperty('height'), (webDirectory.classList.contains('--open')) ? timeout : 0);
-  }
-  
-  webDirectoryFolderNames.forEach((folderName) => folderName.addEventListener('click', toggleFolder));
+const toggleFolder = (e) =>  {
+  const webDirectory = e.currentTarget.nextElementSibling;
+  webDirectory.style.setProperty('transition', `height ${(webDirectory.scrollHeight / 360).toFixed(2)}s linear`);
+  webDirectory.style.setProperty('height', webDirectory.scrollHeight + 'px');
+  webDirectory.classList.toggle('--open');
+  webDirectory.classList.add('--transitioning');
+  const timeout = ((webDirectory.scrollHeight / 360) * 1000);
+  setTimeout(() => webDirectory.classList.remove('--transitioning'), timeout);
+  setTimeout(() => webDirectory.style.removeProperty('height'), (webDirectory.classList.contains('--open')) ? timeout : 0);
 }
-
-
-buttonsSelectText.forEach((buttonSelectText) => buttonSelectText.addEventListener('click', showSelectTextFileModal));
+  
+webDirectoryFolderNames.forEach((folderName) => folderName.addEventListener('click', toggleFolder));
 ```
