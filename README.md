@@ -7,6 +7,14 @@ For a live demo of this styled, scripted UI, see:
 
 _______
 
+## Implementing the Code
+
+In the example below there are _three_ files:
+
+ - a file for the _markup_ (in **HTML**)
+ - a file for the _styles_ (in **CSS**)
+ - a file for the _interactivity_ (in **JS**)
+
 ## HTML
 ```html
 <ul class="webDirectory --open">
