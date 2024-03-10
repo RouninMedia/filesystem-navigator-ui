@@ -11,11 +11,11 @@ _______
 
 In the example below there are _three_ files:
 
- - a file for the _markup_ (in **HTML**)
- - a file for the _styles_ (in **CSS**)
- - a file for the _interactivity_ (in **JS**)
+ - an **HTML** file containing the _markup_
+ - a **CSS** file containing the _styles_
+ - a **JS** file containing the _interactivity_
 
-### HTML
+### HTML:
 ```html
 <ul class="webDirectory --open">
   <li class="webDirectoryFolder"><span class="webDirectoryFolderName">Folder A</span>
@@ -156,7 +156,7 @@ In the example below there are _three_ files:
 </ul>
 ```
 
-### CSS
+### CSS:
 ```css
 .webDirectory {
   width: 90%;
@@ -278,7 +278,7 @@ li.webDirectoryFile:last-of-type {
 }
 ```
 
-### JS
+### JS:
 ```js
 const webDirectoryFolderNames = document.querySelectorAll('.webDirectoryFolderName');
  
