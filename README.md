@@ -9,11 +9,11 @@ _______
 
 ## Implementing the Code
 
-In the example below there are _three_ files:
+In the example below, there are _three_ files:
 
- - an **HTML** file containing the _markup_
- - a **CSS** file containing the _styles_
- - a **JS** file containing the _interactivity_
+ 1. an **HTML** file containing the _markup_
+ 2. a **CSS** file containing the _styles_
+ 3. a **JS** file containing the _interactivity_
 
 ### HTML:
 ```html
