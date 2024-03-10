@@ -63,53 +63,53 @@ _______
       <li class="webDirectoryFile"><span class="webDirectoryFileName">page-a6.html</span></li>
     </ul>
   </li>
-  <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER B</span>
+  <li class="webDirectoryFolder"><span class="webDirectoryFolderName">Folder B</span>
     <ul class="webDirectory">
       <li class="webDirectoryFile"><span class="webDirectoryFileName">page-b1.html</span></li>
     </ul>
   </li>
-  <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER C</span>
+  <li class="webDirectoryFolder"><span class="webDirectoryFolderName">Folder C</span>
     <ul class="webDirectory">
-      <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER CA</span>
+      <li class="webDirectoryFolder"><span class="webDirectoryFolderName">Folder CA</span>
         <ul class="webDirectory">
-          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER CAA</span>
+          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">Folder CAA</span>
             <ul class="webDirectory">
               <li class="webDirectoryFile"><span class="webDirectoryFileName">page-caa1.html</span></li>
             </ul>
           </li>
-          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER CAB</span>
+          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">Folder CAB</span>
             <ul class="webDirectory">
               <li class="webDirectoryFile"><span class="webDirectoryFileName">page-cab1.html</span></li>
             </ul>
           </li>
-          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER CAC</span>
+          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">Folder CAC</span>
             <ul class="webDirectory">
               <li class="webDirectoryFile"><span class="webDirectoryFileName">page-cac1.html</span></li>
             </ul>
           </li>
-          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER CAD</span>
+          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">Folder CAD</span>
             <ul class="webDirectory">
               <li class="webDirectoryFile"><span class="webDirectoryFileName">page-cad1.html</span></li>
             </ul>
           </li>
-          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER CAE</span>
+          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">Folder CAE</span>
             <ul class="webDirectory">
               <li class="webDirectoryFile"><span class="webDirectoryFileName">page-cae1.html</span></li>
             </ul>
           </li>
-          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER CAF</span>
+          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">Folder CAF</span>
             <ul class="webDirectory">
               <li class="webDirectoryFile"><span class="webDirectoryFileName">page-caf1.html</span></li>
             </ul>
           </li>
         </ul>
       </li>
-      <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER CB</span>
+      <li class="webDirectoryFolder"><span class="webDirectoryFolderName">Folder CB</span>
         <ul class="webDirectory"></ul>
       </li>
-      <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER CC</span>
+      <li class="webDirectoryFolder"><span class="webDirectoryFolderName">Folder CC</span>
         <ul class="webDirectory">
-          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER CCA</span>
+          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">Folder CCA</span>
             <ul class="webDirectory">
               <li class="webDirectoryFile"><span class="webDirectoryFileName">page-cca1.html</span></li>
             </ul>
@@ -118,16 +118,16 @@ _______
       </li>
     </ul>
   </li>
-  <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER D</span>
+  <li class="webDirectoryFolder"><span class="webDirectoryFolderName">Folder D</span>
     <ul class="webDirectory">
       <li class="webDirectoryFile"><span class="webDirectoryFileName">page-d1.html</span></li>
       <li class="webDirectoryFile"><span class="webDirectoryFileName">page-d2.html</span></li>
     </ul>
   </li>
-  <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER E</span>
+  <li class="webDirectoryFolder"><span class="webDirectoryFolderName">Folder E</span>
     <ul class="webDirectory"></ul>
   </li>
-  <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER F</span>
+  <li class="webDirectoryFolder"><span class="webDirectoryFolderName">Folder F</span>
     <ul class="webDirectory">
       <li class="webDirectoryFile"><span class="webDirectoryFileName">page-f1.html</span></li>
       <li class="webDirectoryFile"><span class="webDirectoryFileName">page-f2.html</span></li>
