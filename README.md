@@ -4,141 +4,141 @@ An interactive Filesystem Navigator UI for web pages.
 ## HTML
 ```html
 <ul class="webDirectory --open">
-  <li class="webDirectoryFolder"><span class="webDirectoryFolderName"># Ready Write Web</span>
+  <li class="webDirectoryFolder"><span class="webDirectoryFolderName">Folder A</span>
     <ul class="webDirectory">
-      <li class="webDirectoryFolder"><span class="webDirectoryFolderName"># hacktohacker</span>
+      <li class="webDirectoryFolder"><span class="webDirectoryFolderName">Folder AA</span>
         <ul class="webDirectory">
-          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">hack-to-hacker_apps</span>
+          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">Folder AAA</span>
             <ul class="webDirectory">
-              <li class="webDirectoryFolder"><span class="webDirectoryFolderName">nimish</span>
+              <li class="webDirectoryFolder"><span class="webDirectoryFolderName">Folder AAAA</span>
                 <ul class="webDirectory">
-                  <li class="webDirectoryFile"><span class="webDirectoryFileName">nim-articles-and-links.txt</span></li>
-                  <li class="webDirectoryFile"><span class="webDirectoryFileName">nimish-notes.txt</span></li>
+                  <li class="webDirectoryFile"><span class="webDirectoryFileName">page-aaaa1.html</span></li>
+                  <li class="webDirectoryFile"><span class="webDirectoryFileName">page-aaaa2.html</span></li>
                 </ul>
               </li>
-              <li class="webDirectoryFolder"><span class="webDirectoryFolderName">wordish</span>
+              <li class="webDirectoryFolder"><span class="webDirectoryFolderName">Folder AAAB</span>
                 <ul class="webDirectory">
-                  <li class="webDirectoryFolder"><span class="webDirectoryFolderName">svg</span>
+                  <li class="webDirectoryFolder"><span class="webDirectoryFolderName">Folder AAABA</span>
                     <ul class="webDirectory">
-                      <li class="webDirectoryFile"><span class="webDirectoryFileName">backspace-icon.svg</span></li>
-                      <li class="webDirectoryFile"><span class="webDirectoryFileName">vibrate-off.svg</span></li>
-                      <li class="webDirectoryFile"><span class="webDirectoryFileName">vibrate.svg</span></li>
-                      <li class="webDirectoryFile"><span class="webDirectoryFileName">wordis3h-favicon.svg</span></li>
+                      <li class="webDirectoryFile"><span class="webDirectoryFileName">page-aaaba1.html</span></li>
+                      <li class="webDirectoryFile"><span class="webDirectoryFileName">page-aaaba2.html</span></li>
+                      <li class="webDirectoryFile"><span class="webDirectoryFileName">page-aaaba3.html</span></li>
+                      <li class="webDirectoryFile"><span class="webDirectoryFileName">page-aaaba4.html</span></li>
                     </ul>
                   </li>
-                  <li class="webDirectoryFolder"><span class="webDirectoryFolderName">ura</span>
+                  <li class="webDirectoryFolder"><span class="webDirectoryFolderName">Folder AAABB</span>
                     <ul class="webDirectory">
-                      <li class="webDirectoryFile"><span class="webDirectoryFileName">index-for-ura.html</span></li>
-                      <li class="webDirectoryFile"><span class="webDirectoryFileName">index-min-for-ura.html</span></li>
-                      <li class="webDirectoryFile"><span class="webDirectoryFileName">index.txt</span></li>
-                      <li class="webDirectoryFile"><span class="webDirectoryFileName">wordish-as-data-url.txt</span></li>
+                      <li class="webDirectoryFile"><span class="webDirectoryFileName">page-aaabb1.html</span></li>
+                      <li class="webDirectoryFile"><span class="webDirectoryFileName">page-aaabb2.html</span></li>
+                      <li class="webDirectoryFile"><span class="webDirectoryFileName">page-aaabb3.html</span></li>
+                      <li class="webDirectoryFile"><span class="webDirectoryFileName">page-aaabb4.html</span></li>
                     </ul>
                   </li>
-                  <li class="webDirectoryFile"><span class="webDirectoryFileName">index.html</span></li>
-                  <li class="webDirectoryFile"><span class="webDirectoryFileName">intro.txt</span></li>
-                  <li class="webDirectoryFile"><span class="webDirectoryFileName">plan-of-action.html</span></li>
-                  <li class="webDirectoryFile"><span class="webDirectoryFileName">word-list.php</span></li>
+                  <li class="webDirectoryFile"><span class="webDirectoryFileName">page-aaab1.html</span></li>
+                  <li class="webDirectoryFile"><span class="webDirectoryFileName">page-aaab2.html</span></li>
+                  <li class="webDirectoryFile"><span class="webDirectoryFileName">page-aaab3.html</span></li>
+                  <li class="webDirectoryFile"><span class="webDirectoryFileName">page-aaab4.html</span></li>
                 </ul>
               </li>
             </ul>
           </li>
-          <li class="webDirectoryFile"><span class="webDirectoryFileName">.hack-to-hacker_htaccess</span></li>
-          <li class="webDirectoryFile"><span class="webDirectoryFileName">fruitbowl.txt</span></li>
-          <li class="webDirectoryFile"><span class="webDirectoryFileName">hack-to-hacker_index.html</span></li>
-          <li class="webDirectoryFile"><span class="webDirectoryFileName">hack-to-hacker_references.txt</span></li>
-          <li class="webDirectoryFile"><span class="webDirectoryFileName">todolist.txt</span></li>
-          <li class="webDirectoryFile"><span class="webDirectoryFileName">winner-1.jpg</span></li>
-          <li class="webDirectoryFile"><span class="webDirectoryFileName">winner-2.jpg</span></li>
+          <li class="webDirectoryFile"><span class="webDirectoryFileName">page-aa1.html</span></li>
+          <li class="webDirectoryFile"><span class="webDirectoryFileName">page-aa2.html</span></li>
+          <li class="webDirectoryFile"><span class="webDirectoryFileName">page-aa3.html</span></li>
+          <li class="webDirectoryFile"><span class="webDirectoryFileName">page-aa4.html</span></li>
+          <li class="webDirectoryFile"><span class="webDirectoryFileName">page-aa5.html</span></li>
+          <li class="webDirectoryFile"><span class="webDirectoryFileName">page-aa6.html</span></li>
+          <li class="webDirectoryFile"><span class="webDirectoryFileName">page-aa7.html</span></li>
         </ul>
       </li>
-      <li class="webDirectoryFile"><span class="webDirectoryFileName">index-page.html</span></li>
-      <li class="webDirectoryFile"><span class="webDirectoryFileName">readywriteweb--architecture.txt</span></li>
-      <li class="webDirectoryFile"><span class="webDirectoryFileName">readywriteweb--links.txt</span></li>
-      <li class="webDirectoryFile"><span class="webDirectoryFileName">readywriteweb-as-data-url.txt</span></li>
-      <li class="webDirectoryFile"><span class="webDirectoryFileName">readywriteweb-notes.txt</span></li>
-      <li class="webDirectoryFile"><span class="webDirectoryFileName">toot-list.txt</span></li>
+      <li class="webDirectoryFile"><span class="webDirectoryFileName">page-a1.html</span></li>
+      <li class="webDirectoryFile"><span class="webDirectoryFileName">page-a2.html</span></li>
+      <li class="webDirectoryFile"><span class="webDirectoryFileName">page-a3.html</span></li>
+      <li class="webDirectoryFile"><span class="webDirectoryFileName">page-a4.html</span></li>
+      <li class="webDirectoryFile"><span class="webDirectoryFileName">page-a5.html</span></li>
+      <li class="webDirectoryFile"><span class="webDirectoryFileName">page-a6.html</span></li>
     </ul>
   </li>
-  <li class="webDirectoryFolder"><span class="webDirectoryFolderName">..ashiva-installer</span>
+  <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER B</span>
     <ul class="webDirectory">
-      <li class="webDirectoryFile"><span class="webDirectoryFileName">index.php</span></li>
+      <li class="webDirectoryFile"><span class="webDirectoryFileName">page-b1.html</span></li>
     </ul>
   </li>
-  <li class="webDirectoryFolder"><span class="webDirectoryFolderName">apps</span>
+  <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER C</span>
     <ul class="webDirectory">
-      <li class="webDirectoryFolder"><span class="webDirectoryFolderName">ashiva</span>
+      <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER CA</span>
         <ul class="webDirectory">
-          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">broadcaster</span>
+          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER CAA</span>
             <ul class="webDirectory">
-              <li class="webDirectoryFile"><span class="webDirectoryFileName">index.html</span></li>
+              <li class="webDirectoryFile"><span class="webDirectoryFileName">page-caa1.html</span></li>
             </ul>
           </li>
-          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">hackpad</span>
+          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER CAB</span>
             <ul class="webDirectory">
-              <li class="webDirectoryFile"><span class="webDirectoryFileName">index.php</span></li>
+              <li class="webDirectoryFile"><span class="webDirectoryFileName">page-cab1.html</span></li>
             </ul>
           </li>
-          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">icon-generator</span>
+          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER CAC</span>
             <ul class="webDirectory">
-              <li class="webDirectoryFile"><span class="webDirectoryFileName">index.php</span></li>
+              <li class="webDirectoryFile"><span class="webDirectoryFileName">page-cac1.html</span></li>
             </ul>
           </li>
-          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">initialiser</span>
+          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER CAD</span>
             <ul class="webDirectory">
-              <li class="webDirectoryFile"><span class="webDirectoryFileName">index.php</span></li>
+              <li class="webDirectoryFile"><span class="webDirectoryFileName">page-cad1.html</span></li>
             </ul>
           </li>
-          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">json-builder</span>
+          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER CAE</span>
             <ul class="webDirectory">
-              <li class="webDirectoryFile"><span class="webDirectoryFileName">index.php</span></li>
+              <li class="webDirectoryFile"><span class="webDirectoryFileName">page-cae1.html</span></li>
             </ul>
           </li>
-          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">remote-note</span>
+          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER CAF</span>
             <ul class="webDirectory">
-              <li class="webDirectoryFile"><span class="webDirectoryFileName">index.php</span></li>
+              <li class="webDirectoryFile"><span class="webDirectoryFileName">page-caf1.html</span></li>
             </ul>
           </li>
         </ul>
       </li>
-      <li class="webDirectoryFolder"><span class="webDirectoryFolderName">projects</span>
+      <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER CB</span>
         <ul class="webDirectory"></ul>
       </li>
-      <li class="webDirectoryFolder"><span class="webDirectoryFolderName">tools</span>
+      <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER CC</span>
         <ul class="webDirectory">
-          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">remote-note</span>
+          <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER CCA</span>
             <ul class="webDirectory">
-              <li class="webDirectoryFile"><span class="webDirectoryFileName">index.php</span></li>
+              <li class="webDirectoryFile"><span class="webDirectoryFileName">page-cca1.html</span></li>
             </ul>
           </li>
         </ul>
       </li>
     </ul>
   </li>
-  <li class="webDirectoryFolder"><span class="webDirectoryFolderName">canvas</span>
+  <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER D</span>
     <ul class="webDirectory">
-      <li class="webDirectoryFile"><span class="webDirectoryFileName">canvas.html</span></li>
-      <li class="webDirectoryFile"><span class="webDirectoryFileName">index.html</span></li>
+      <li class="webDirectoryFile"><span class="webDirectoryFileName">page-d1.html</span></li>
+      <li class="webDirectoryFile"><span class="webDirectoryFileName">page-d2.html</span></li>
     </ul>
   </li>
-  <li class="webDirectoryFolder"><span class="webDirectoryFolderName">labs</span>
+  <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER E</span>
     <ul class="webDirectory"></ul>
   </li>
-  <li class="webDirectoryFolder"><span class="webDirectoryFolderName">lindley-community-group</span>
+  <li class="webDirectoryFolder"><span class="webDirectoryFolderName">FOLDER F</span>
     <ul class="webDirectory">
-      <li class="webDirectoryFile"><span class="webDirectoryFileName">2023-lindley-carnival-plan.png</span></li>
-      <li class="webDirectoryFile"><span class="webDirectoryFileName">2023-lindley-programme-draft-19.pdf</span></li>
-      <li class="webDirectoryFile"><span class="webDirectoryFileName">OLD_index.html</span></li>
-      <li class="webDirectoryFile"><span class="webDirectoryFileName">index.html</span></li>
-      <li class="webDirectoryFile"><span class="webDirectoryFileName">lcg.woff</span></li>
-      <li class="webDirectoryFile"><span class="webDirectoryFileName">lcg.woff2</span></li>
-      <li class="webDirectoryFile"><span class="webDirectoryFileName">lindley-2024-junior-run-entry-form.pdf</span></li>
-      <li class="webDirectoryFile"><span class="webDirectoryFileName">lindley-2024-sponsorship-and-stall-booking-form.pdf</span></li>
-      <li class="webDirectoryFile"><span class="webDirectoryFileName">lindley-carnival-logo.png</span></li>
-      <li class="webDirectoryFile"><span class="webDirectoryFileName">lindley-community-group-screenshot.png</span></li>
+      <li class="webDirectoryFile"><span class="webDirectoryFileName">page-f1.html</span></li>
+      <li class="webDirectoryFile"><span class="webDirectoryFileName">page-f2.html</span></li>
+      <li class="webDirectoryFile"><span class="webDirectoryFileName">page-f3.html</span></li>
+      <li class="webDirectoryFile"><span class="webDirectoryFileName">page-f4.html</span></li>
+      <li class="webDirectoryFile"><span class="webDirectoryFileName">page-f5.html</span></li>
+      <li class="webDirectoryFile"><span class="webDirectoryFileName">page-f6.html</span></li>
+      <li class="webDirectoryFile"><span class="webDirectoryFileName">page-f7.html</span></li>
+      <li class="webDirectoryFile"><span class="webDirectoryFileName">page-f8.html</span></li>
+      <li class="webDirectoryFile"><span class="webDirectoryFileName">page-f9.html</span></li>
+      <li class="webDirectoryFile"><span class="webDirectoryFileName">page-f10.html</span></li>
    </ul>
   </li>
-  <li class="webDirectoryFile"><span class="webDirectoryFileName">favicon.ico</span></li>
-  <li class="webDirectoryFile"><span class="webDirectoryFileName">index.php</span></li>
+  <li class="webDirectoryFile"><span class="webDirectoryFileName">page-a1.html</span></li>
+  <li class="webDirectoryFile"><span class="webDirectoryFileName">page-a2.html</span></li>
 </ul>
 ```
 
