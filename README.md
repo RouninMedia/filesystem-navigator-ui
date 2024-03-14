@@ -308,3 +308,13 @@ const toggleFolder = (e) =>  {
   
 webDirectoryFolderNames.forEach((folderName) => folderName.addEventListener('click', toggleFolder));
 ```
+
+_________
+
+## Inspiration
+
+This demo - especially the clever parts in the **JS** section - was inspired by the following article on **CSS Tricks**:
+
+ - https://css-tricks.com/using-css-transitions-auto-dimensions/
+
+which investigates different approaches enabling elements of arbitrary height (i.e. `height: auto`) to animate backwards and forwards between being fully closed and fully open. 
