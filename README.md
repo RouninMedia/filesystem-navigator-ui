@@ -9,6 +9,10 @@ The intention is to display a dynamic, interactive UI component which, in a visu
 
 Not least, since it isn't possible to animate an element's `height` from `0` to `auto` via  CSS transitions alone, the UI component's script contains a function which animates the opening and closing of folders of arbitrary `height`.
 
+_______
+
+## Live Demo of the Filesystem Navigator UI
+
 For a live demo of this styled, scripted UI component, see:
 
 - <a href="https://rouninmedia.github.io/filesystem-navigator-ui/filesystem-navigator-ui.html" target="_blank">FileSystem Navigator UI</a>
