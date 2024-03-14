@@ -7,8 +7,6 @@ The intention is to display a dynamic, interactive UI component which, in a visu
  - which folders are empty
  - which folders contain other open (or closed) sub-folders
 
-Not least, since it isn't possible to animate an element's `height` from `0` to `auto` via  CSS transitions alone, the UI component's script contains a function which animates the opening and closing of folders of arbitrary `height`.
-
 _______
 
 ## Live Demo of the Filesystem Navigator UI
@@ -16,6 +14,15 @@ _______
 For a live demo of this styled, scripted UI component, see:
 
 - <a href="https://rouninmedia.github.io/filesystem-navigator-ui/filesystem-navigator-ui.html" target="_blank">FileSystem Navigator UI</a>
+
+_______
+
+## A special note about the JS in this UI component
+
+Since it isn't possible to animate an element's `height` from `0` to `auto` via  CSS transitions alone, the UI component's script contains a function which does two things:
+
+ 1. the function enables the animated opening and closing of all folders, regardless of their `height`, by calculating CSS transitions on-the-fly, inserting them inline and, finally, removing them again
+ 2. the same function correctly calculates what the CSS transition duration should be, such that, each folder opens at _the same consistent speed_ as all the other folders, regardless of its full `height` 
 
 _______
 
