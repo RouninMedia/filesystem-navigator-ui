@@ -3,9 +3,10 @@ This UI component is an interactive **Filesystem Navigator UI** which enables fo
 
 The intention is to display a dynamic, interactive UI component which, in a visually intuitive manner, makes it clear to the user:
 
- - which folders are open
- - which folders are empty
+ - which folders are currently open or closed
  - which folders contain other open (or closed) sub-folders
+ - which folders the user is indicating interest in
+ - which folders are empty
 
 _______
 
