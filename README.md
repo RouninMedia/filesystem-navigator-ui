@@ -23,7 +23,7 @@ _______
 Since it isn't possible to animate an element's `height` from `0` to `auto` via  CSS transitions alone, the UI component's script contains a function which does two things:
 
  1. the function enables the animated opening and closing of all folders, regardless of their `height`, by calculating CSS transitions on-the-fly, inserting them inline and, once the animation is complete, removing them again
- 2. the same function correctly calculates what the ideal CSS transition duration should be, such that, each folder opens at _the same consistent speed_ as all the other folders, regardless of its full `height` 
+ 2. the same function correctly calculates what the ideal CSS transition duration should be, such that each folder opens at _the same consistent speed_ as all the other folders, regardless of how tall or short that folder is
 
 _______
 
