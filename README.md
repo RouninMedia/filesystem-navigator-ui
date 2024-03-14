@@ -1,7 +1,11 @@
 # Filesystem Navigator UI
 This UI component is an interactive **Filesystem Navigator UI** to enable folder-style navigation on web pages.
 
-The intention is to show a dynamic display which makes it clear, in a visually intuitive manner, which folders are open and which folders contain other open (or closed) sub-folders.
+The intention is to show a dynamic display which makes it clear, in a visually intuitive manner:
+
+ - which folders are open
+ - which folders are empty
+ - which folders contain other open (or closed) sub-folders
 
 Not least, since it isn't possible to animate an element's `height` from `0` to `auto` via  CSS transitions alone, the UI component's script contains a function which animates the opening and closing of folders of arbitrary `height`.
 
