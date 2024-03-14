@@ -1,7 +1,7 @@
 # Filesystem Navigator UI
 This UI component is an interactive **Filesystem Navigator UI** to enable folder-style navigation on web pages.
 
-The intention is to show a dynamic display which makes it clear, in a visually intuitive manner:
+The intention is to display a dynamic, interactive UI component which, in a visually intuitive manner, makes it clear to the user:
 
  - which folders are open
  - which folders are empty
