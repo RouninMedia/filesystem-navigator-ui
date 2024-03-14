@@ -320,8 +320,8 @@ _________
 
 ## Inspiration
 
-This demo - especially the clever parts in the **JS** section - was inspired by the following article on **CSS Tricks**:
+This demo - especially the clever parts in the **JS** section - was inspired by **Brandon Smith's** article on **CSS Tricks**:
 
- - https://css-tricks.com/using-css-transitions-auto-dimensions/
+ - <a href="https://css-tricks.com/using-css-transitions-auto-dimensions/" target="_blank">Using CSS Transitions on Auto Dimensions</a> (March 2017)
 
 which investigates different approaches enabling elements of arbitrary height (i.e. `height: auto`) to animate backwards and forwards between being fully closed and fully open. 
