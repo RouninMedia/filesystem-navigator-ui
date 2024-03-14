@@ -1,5 +1,5 @@
 # Filesystem Navigator UI
-This UI component is an interactive **Filesystem Navigator UI** to enable folder-style navigation on web pages.
+This UI component is an interactive **Filesystem Navigator UI** which enables folder-style navigation within web pages.
 
 The intention is to display a dynamic, interactive UI component which, in a visually intuitive manner, makes it clear to the user:
 
