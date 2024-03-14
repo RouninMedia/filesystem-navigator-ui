@@ -11,9 +11,9 @@ _______
 
 In the example below, there are _three_ files:
 
- 1. an **HTML** file containing the _markup_
- 2. a **CSS** file containing the _styles_
- 3. a **JS** file containing the _interactivity_
+ 1. an **HTML** file containing the _markup_ / _structure_
+ 2. a **CSS** file containing the _styles_ / _presentation_
+ 3. a **JS** file containing the _interactivity_ / _behaviour_
 
 ### HTML:
 ```html
